@@ -1,0 +1,46 @@
+.borrowed-books {
+    padding: 20px;
+  
+    h1 {
+      text-align: center;
+    }
+  
+    .borrowed-books-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      .borrowed-book {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f9f9f9;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+        .book-details {
+          h3 {
+            margin: 0;
+          }
+          p {
+            margin: 5px 0 0;
+          }
+        }
+  
+        .return-btn {
+          background-color: #ff4d4d;
+          color: white;
+          border: none;
+          padding: 8px 16px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .return-btn:hover {
+      background-color: #ff1a1a;
+    }
+  }
+  
